@@ -9,8 +9,11 @@ import "./globals.css"; // Importing globals.css once
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Portfolio",
+  title: "dhruv.vishesh.gupta",
   description: "Dhruvfolio",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({
