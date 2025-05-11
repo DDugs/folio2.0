@@ -7,6 +7,7 @@ import { ArrowRight, ExternalLink, Github } from 'lucide-react'
 import { FadeIn } from "@/components/animations/fade-in"
 import { TextReveal } from "@/components/animations/text-reveal"
 import { HoverCard } from "@/components/animations/hover-card"
+import { Footer } from "@/components/footer"
 
 export default function WorkPage() {
   return (
@@ -40,54 +41,85 @@ export default function WorkPage() {
           
           {/* Featured Work - Timeline Style */}
           <div className="relative border-l border-zinc-800 pl-8 ml-4 mt-24">
+
             {/* Work Item 1 */}
             <WorkTimelineItem 
-              year="2024"
-              title="HackathonX"
-              description="Secured 1st place in HackathonX CTF conducted by the National Cyber Security Research Council at IIT Madras."
-              tags={["Machine Learning", "Data Analytics", "Python", "Predictive Modeling"]}
+              year="2025"
+              title="CME Group"
+              description="Achieved 1st place in the CME Group CTF competition at SRM University."
+              tags={[]}
               label="Capture the Flag"
               index={1}
             />
             
+
             {/* Work Item 2 */}
+            <WorkTimelineItem 
+              year="2025"
+              title="Binary Clash 360"
+              description="Secured 4th place at Binary Clash 360, a national-level binary obstruction challenge and CTF organized by CyStar and IIITDM Kancheepuram."
+              tags={[]}
+              label="Capture the Flag"
+              index={2}
+            />
+            {/* Work Item 3 */}
+            <WorkTimelineItem 
+              year="2025"
+              title="Bitwall.ke"
+              description="Secured 5th place in BitSiegeCTF 2025 organized by Bitwall.ke."
+              tags={[]}
+              label="Capture the Flag"
+              index={3}
+            />
+
+            {/* Work Item 4 */}
+            <WorkTimelineItem 
+              year="2024"
+              title="HackathonX"
+              description="Secured 1st place in HackathonX CTF conducted by the National Cyber Security Research Council at IIT Madras."
+              tags={[]}
+              label="Capture the Flag"
+              index={4}
+            />
+
+            {/* Work Item 5 */}
             <WorkTimelineItem 
               year="2024"
               title="Nambia University"
               description=" Secured 2nd place in Nust CTF, a worldwide CTF organized by Namibia University of Science and Technology."
-              tags={["Teamwork", "Cybersecurity", "Reverse Engineering", "VAPT"]}
+              tags={[]}
               label="Capture the Flag"
-              index={2}
+              index={5}
             />
             
-            {/* Work Item 3 */}
+            {/* Work Item 6 */}
             <WorkTimelineItem 
               year="2024"
               title="Nasscom DSCI"
               description="Secured 12th place in a CTF organized by DSCI and EY under AISS 2024 at Aerocity, Delhi."
-              tags={["Figma", "Notion", "User Research", "Prototyping"]}
+              tags={[]}
               label="Capture the Flag"
-              index={3}
+              index={6}
             />
-            
-            {/* Work Item 4 */}
-            <WorkTimelineItem 
-              year="2023"
-              title="Haxnation"
-              description="Discovered and reported an IDOR vulnerability on the Haxnation website, risking unauthorized access to data."
-              tags={["Next.js", "Three.js", "Framer Motion", "Tailwind CSS"]}
-              label="Bug Bounty"
-              index={4}
-            />
-            
-            {/* Work Item 5 */}
+   
+            {/* Work Item 7 */}
             <WorkTimelineItem 
               year="2024"
               title="Smart India Hackathon"
               description="Participated in Smart India Hackathon 2024, advancing to the second round at SRM University."
-              tags={["React", "Firebase", "Redux", "Material UI"]}
+              tags={[]}
               label="Hackathon"
-              index={5}
+              index={7}
+            />
+            
+            {/* Work Item 8 */}
+            <WorkTimelineItem 
+              year="2023"
+              title="Haxnation"
+              description="Discovered and reported an IDOR vulnerability on the Haxnation website, risking unauthorized access to data."
+              tags={[]}
+              label="Bug Bounty"
+              index={8}
             />
           </div>
           
@@ -157,61 +189,9 @@ export default function WorkPage() {
               </FadeIn>
             </div>
           </div>
-          
-          {/* Experimental Work Section */}
-          <div className="mt-16">
-            <FadeIn>
-              <h2 className="text-3xl font-bold mb-12">Still Learning</h2>
-            </FadeIn>
-            
-            <div className="grid grid-cols-1 gap-3">
-  {/* Experimental Project 1 */}
-  <FadeIn>
-    <div className="group relative scale-75">
-      <div className="aspect-video bg-gradient-to-br from-zinc-900 via-zinc-800 to-zinc-900 rounded-lg overflow-hidden flex items-center justify-center">
-        <div className="text-8xl">🧪</div>
-      </div>
-
-      <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg flex items-center justify-center">
-        <div className="text-center p-4 transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
-          <h3 className="text-3xl font-semibold mb-1">TryHackme</h3>
-          <p className="text-xl text-zinc-300 mb-3">
-            Top 1% on TryHackme out of 3M+ users by solving 180+ challenges.
-          </p>
-          <div className="flex justify-center gap-2">
-          </div>
-        </div>
-      </div>
-
-      <div className="absolute -bottom-3 left-3">
-        <Badge className="bg-secondary text-black text-xl px-2 py-0.5">Cybersecurity</Badge>
-      </div>
-    </div>
-  </FadeIn>
-              
-              {/* Experimental Project 2 */}
-              <FadeIn delay={0.2}>
-                <div className="group relative scale-75">
-                  <div className="aspect-video bg-gradient-to-br from-zinc-900 via-zinc-800 to-zinc-900 rounded-lg overflow-hidden flex items-center justify-center">
-                    <div className="text-8xl">🎮</div>
-                  </div>
-                  
-                  <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg flex items-center justify-center">
-                    <div className="text-center p-8 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
-                      <h3 className="text-3xl font-bold mb-2">Bug Bounty Hunting</h3>
-                      <p className="text-xl text-zinc-300 mb-4">Hunting bugs on websites for bounties</p>
-                    </div>
-                  </div>
-                  
-                  <div className="absolute -bottom-3 left-3">
-                    <Badge className="bg-accent text-xl text-black">Vulnerability Disclosure</Badge>
-                  </div>
-                </div>
-              </FadeIn>
-            </div>
-          </div>
         </div>
       </section>
+      <Footer/>
     </main>
   )
 }
