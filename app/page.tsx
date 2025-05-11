@@ -81,7 +81,7 @@ export default function Home() {
             <div>
               <div className="text-sm text-zinc-500 mb-0">// Secure, Innovate, Protect</div>
               <h2 className="text-3xl font-bold mb-5">
-              Securing the digital world with expertise and innovation. Together, we build resilient systems and lead the charge in cybersecurity advancements.
+              Learning to secure the digital world, one step at a time. On a journey to understand, build, and contribute to resilient cybersecurity systems.
               </h2>
 
               <div className="mt-12">
@@ -89,7 +89,7 @@ export default function Home() {
                 <h3 className="text-2xl font-bold text-secondary mb-2">Architecting Innovation</h3>
 
                 <p className="text-zinc-400 mt-2">
-                I focus on building custom security solutions, always pushing the limits and making sure everything is top-notch.
+                I'm currently learning the fundamentals of cybersecurity, experimenting with tools and always pushing the limits and making sure everything is top-notch.
                 </p>
               </div>
 
@@ -129,7 +129,7 @@ export default function Home() {
             <FadeIn direction="up" delay={0.2}>
               <ProjectCard
                 title="Woktok-2.0"
-                year="2024"
+                year="2025"
                 tags={["React.js", "MongoDB", "Node.js", "Tailwind CSS"]}
                 label="Realtime Chatting Platform"
                 link="/projects"
