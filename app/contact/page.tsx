@@ -10,6 +10,7 @@ import { Textarea } from "@/components/ui/textarea"
 import { Github, Linkedin, Twitter, Mail, Dribbble, Send } from "lucide-react"
 import Link from "next/link"
 import { FadeIn } from "@/components/animations/fade-in"
+import { Footer } from "@/components/footer"
 
 export default function ContactPage() {
   const form = useRef<HTMLFormElement>(null)
@@ -128,6 +129,7 @@ export default function ContactPage() {
           </div>
         </div>
       </section>
+      <Footer/>
     </main>
   )
 }
