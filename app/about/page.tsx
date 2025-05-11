@@ -21,16 +21,12 @@ export default function AboutPage() {
                 </h1>
 
                 <p className="text-zinc-300 mb-6">
-                  I'm a passionate UI/UX Designer and Full-Stack Developer with a focus on creating digital experiences
-                  that are both beautiful and functional. With expertise in modern web technologies, I bring ideas to
-                  life through clean code and intuitive design.
-                </p>
+                   I'm a cybersecurity enthusiast actively learning the foundations of ethical hacking, network defense, and secure coding. My focus is on understanding how systems can be attacked—and more importantly, how to protect them.
+                 </p>
 
-                <p className="text-zinc-300 mb-6">
-                  My journey in the tech world began with a curiosity about how things work, which evolved into a career
-                  building digital products that solve real problems. I believe in the power of technology to transform
-                  businesses and improve lives.
-                </p>
+                 <p className="text-zinc-300 mb-6">
+                      My journey in tech started with a deep curiosity about how digital systems operate and how vulnerabilities can be exploited. That curiosity has grown into a mission to build safer, more resilient systems through continuous learning and hands-on exploration.
+                 </p>
 
                 <a href="https://drive.google.com/file/d/1PuA2YNKCbkW1aexJ_qJ0zIoaUKMp82b-/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
                 <Button variant="outline" className="rounded-full border-zinc-800 hover:bg-zinc-900 group">
