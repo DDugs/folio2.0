@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button"
 import { Download } from "lucide-react"
 import { FadeIn } from "@/components/animations/fade-in"
 import { StaggerChildren } from "@/components/animations/stagger-children"
+import { Footer } from "@/components/footer"
 
 export default function AboutPage() {
   return (
@@ -53,61 +54,6 @@ export default function AboutPage() {
                 </div>
               </div>
             </FadeIn>
-          </div>
-
-          <div className="border-t border-zinc-900 pt-16">
-            <FadeIn>
-              <h2 className="text-3xl font-bold text-primary mb-12">My Expertise</h2>
-            </FadeIn>
-
-            <StaggerChildren staggerDelay={0.2}>
-              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                {/* Expertise 1 */}
-                <div className="bg-zinc-900/30 rounded-lg p-6 border border-zinc-800 hover:border-primary/50 transition-colors">
-                  <div className="text-secondary text-xl font-medium mb-4">Cybersecurity</div>
-                  <p className="text-zinc-400 mb-4">
-                  Gained hands-on experience in cybersecurity, focusing on real-world security challenges and vulnerability assessment.
-                  </p>
-                  <ul className="text-zinc-500 space-y-2">
-                    <li>• Penetration Testing</li>
-                    <li>• Malware Analysis</li>
-                    <li>• Network Forensics</li>
-                    <li>• Ethical Hacking</li>
-                    <li>• Linux</li>
-                  </ul>
-                </div>
-
-                {/* Expertise 2 */}
-                <div className="bg-zinc-900/30 rounded-lg p-6 border border-zinc-800 hover:border-primary/50 transition-colors">
-                  <div className="text-secondary text-xl font-medium mb-4">CTF Player</div>
-                  <p className="text-zinc-400 mb-4">
-                  Led and participated in CTF competitions, using cybersecurity tools to identify vulnerabilities and drive team success.
-                  </p>
-                  <ul className="text-zinc-500 space-y-2">
-                    <li>• Wireshark</li>
-                    <li>• Burp Suite</li>
-                    <li>• IDA Pro</li>
-                    <li>• Nmap</li>
-                    <li>• Metasploit</li>
-                  </ul>
-                </div>
-
-                {/* Expertise 3 */}
-                <div className="bg-zinc-900/30 rounded-lg p-6 border border-zinc-800 hover:border-primary/50 transition-colors">
-                  <div className="text-secondary text-xl font-medium mb-4">Development</div>
-                  <p className="text-zinc-400 mb-4">
-                  Designed scalable backend solutions, integrating APIs and managing data for efficient, secure web applications.
-                  </p>
-                  <ul className="text-zinc-500 space-y-2">
-                    <li>• React & Node.js</li>
-                    <li>• MySQL & MongoDB</li>
-                    <li>• Docker</li>
-                    <li>• Python</li>
-                    <li>• Javascript</li>
-                  </ul>
-                </div>
-              </div>
-            </StaggerChildren>
           </div>
 
           <div className="border-t border-zinc-900 pt-16 mt-16">
@@ -192,6 +138,7 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
+      <Footer/>
     </main>
   )
 }
